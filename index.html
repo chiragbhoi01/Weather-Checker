@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Weather Checker</h1>
+
+    <div class="mainbox">
+        <div class="search">
+            <input class="search-city" type="text" placeholder="Enter City Name">
+            <div class="s-img"><img src="images/search.png" class="search-img" alt="Search"></div>
+        </div>
+        <div class="weather">
+            <img src="images/clouds.png" class="weather-img" alt="Current weather image">
+            <div class="temperature"></div>
+            <div class="city"></div>
+        </div>
+        <div class="humidity-wind">
+            <div class="humidity hw">
+                <img src="images/humidity.png" class="humidity-img hw-img" alt="Humidity">
+                <div class="humidity-speed"></div>
+                <div class="humidity-label">Humidity</div>
+            </div>
+            <div class="wind hw">
+                <img src="images/wind.png" class="humidity-img hw-img" alt="Wind">
+                <div class="wind-speed"></div>
+                <div class="wind-label">Wind</div>
+            </div>
+        </div>
+        <div class="loading">Loading...</div>
+        <div class="coder">&copy; Marshal</div>
+    </div>
+<script src="script.js"></script>
+
+</body>
+</html>
