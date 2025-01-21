@@ -40,7 +40,7 @@ document.querySelector('.s-img').addEventListener('click', () => {
 });
 
 // Event listener for the input change (optional for live feedback)
-document.querySelector('.search-city').addEventListener('input', (e) => {
+document.querySelector('.search-city').addEventListener('click', (e) => {
     let enterCity = e.target.value.trim();
     if (enterCity) {
         getWeatherApi(enterCity); // Call the function with the city entered
