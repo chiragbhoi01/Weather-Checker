@@ -4,7 +4,7 @@ A simple and responsive Weather Checker application built using **HTML**, **CSS*
 
 ## 🚀 Live Demo
 
-🔗 [Check it Live](https://chiragbhoi01.github.io/Weather-Checker/)
+🔗 [Check it Live](https://chirag-weatherchecker.netlify.app)
 
 ## 🛠️ Features
 
